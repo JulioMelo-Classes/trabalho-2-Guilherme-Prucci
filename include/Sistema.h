@@ -1,14 +1,23 @@
 #ifndef SISTEMA_H
 #define SISTEMA_H
-#include <vector>
-#include <string>
-#include <iostream>
-#include <map>
+#include"usuario.hpp"
+#include"servidor.hpp"
+#include<vector>
+#include<string>
+#include<iostream>
+#include<map>
 
 
 // Sistema deve concentrar todas as operações do Concordo
 class Sistema {
+	private:
+		vector<Servidor> servidores;
+		vector<Usuario> usuarios;
+		map <int, pair<unsigned int, unsigned int> > usuariosLogados;
   	public:
+		bool verificar_logado(int id);
+
+		vector<Usuario> get_usuarios();
 
 		/*! Encerra o funcionamento do Concordo, o programa termina ao executar este comando.
 			@return uma string com a mensagem "Saindo.."

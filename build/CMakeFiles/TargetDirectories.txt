@@ -1,0 +1,3 @@
+/home/prucci/concord_2.0/trabalho-2-Guilherme-Prucci/build/CMakeFiles/rebuild_cache.dir
+/home/prucci/concord_2.0/trabalho-2-Guilherme-Prucci/build/CMakeFiles/edit_cache.dir
+/home/prucci/concord_2.0/trabalho-2-Guilherme-Prucci/build/CMakeFiles/concordo.dir
