@@ -1,15 +1,6 @@
    #include "usuario.hpp"
    #include <vector>
 
-
-
-   void Usuario::cadastrar_conta(unsigned int id){
-        cin>>this->email;
-        cin>>this->senha;
-        cin>>this->nome;
-        this->id_usuario=id;
-    }
-
     string Usuario::get_nome(){
         return this->nome;
     }

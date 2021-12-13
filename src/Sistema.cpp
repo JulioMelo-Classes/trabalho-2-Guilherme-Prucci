@@ -1,4 +1,4 @@
-#include "Sistema.h"
+#include"Sistema.h"
 #include <iostream>
 #include <sstream>
 #include <algorithm>
@@ -6,6 +6,14 @@
 #include <utility>
 
 using namespace std;
+
+	string Sistema::set_data_hora(){
+    struct tm* horario;
+    time_t tempo;
+    time(&tempo);
+    horario=localtime(&tempo);
+    return "<"+to_string(horario->tm_yday)+"/"+to_string(horario->tm_mon+1)+"/"+to_string(horario->tm_year+1900)+" - "+to_string(horario->tm_hour)+":"+to_string(horario->tm_min);
+	}
 
 	int id_usuario=1, id_servidor=1, id_canaltexto=1, id_mensagem=1;
 
@@ -103,9 +111,9 @@ string Sistema::create_server(int id, const string nome) {
 	if (verificar_logado(id)){
 	vector<Usuario> usuarios=get_usuarios();
 	Usuario* dono;
-	int count=usuarios.size(), count_server=servidores.size();
+	int count_user=usuarios.size(), count_server=servidores.size();
 
-	for (int i = 0; i < count; i++)
+	for (int i = 0; i < count_user; i++)
 	{
 		if (id==usuarios[i].get_id())
 		{
@@ -263,7 +271,7 @@ if(verificar_logado(id)){
 		if (usuariosLogados[id].first==it->second.first)
 		{
 			cout<<usuarios[it->first].get_nome()<<endl;
-			return "";
+			return"";
 		}
 	}
 }else return "usuario nao logado";
@@ -272,63 +280,175 @@ if(verificar_logado(id)){
 
 string Sistema::list_channels(int id) {
 if (verificar_logado(id)){
-	
+	vector<Canaltexto> lista = servidores[usuariosLogados[id].first].get_canaistexto();
+	int count_canaltexto=lista.size();
 
-
+	for (int i = 0; i < count_canaltexto; i++)
+	{
+		cout<<lista[i].get_nome()<<endl;
+	}
 } else "usuario nao logado";
 	return "erro em list_channels";
 }
 
 string Sistema::create_channel(int id, const string nome) {
 if (verificar_logado(id)){
-	
+	Usuario* dono;
+	int id_server=usuariosLogados[dono->get_id()].first;
+	int count_user=usuarios.size();
+		for (int i = 0; i < count_user; i++)
+	{
+		if (id==usuarios[i].get_id())
+		{
+			dono=&usuarios[i];
+		}	
+	}
+	Canaltexto cadastrando(nome ,dono ,id_canaltexto);
+	servidores[id_server].adicionar_canaltexto(cadastrando);
+	id_canaltexto++;
+	return "canal de texto criado";
 
-	
-} else "usuario nao logado";
-	return "create_channel NÃO IMPLEMENTADO";
+} else return "usuario nao logado";
+	return "erro emcreate_channel";
 }
 
 string Sistema::remove_channel(int id, const string nome) {
 if (verificar_logado(id)){
-	
+	Usuario* sol;
+	bool sair;
+	int  count_user=usuarios.size(), count_server=servidores.size(), id_server, count_canal, local;
+	for (int i = 0; i < count_user; i++){
+		if (id==usuarios[i].get_id()){
+			sol=&usuarios[i];
+		}
+		
+	}
 
+	for (int i = 0; i < count_server; i++){
+		count_canal=servidores[i].get_canaistexto().size();
+		for (int a = 0; a < count_canal; a++){
+			if(servidores[i].get_canaistexto()[a].get_nome()==nome){
+				id_server=servidores[i].get_id();
+				local=i;
+				sair=true;
+				break;
+			}
+		}
+		if (sair==true) break;
+	}
 	
-} else "usuario nao logado";
-	return "remove_channel NÃO IMPLEMENTADO";
+	count_canal= servidores[local].get_canaistexto().size();
+
+
+	for (int i = 0; i < count_canal; i++){
+		if (servidores[local].get_canaistexto()[i].get_nome()==nome){
+			if (servidores[local].get_canaistexto()[i].get_dono()==sol){
+				servidores[local].get_canaistexto().erase(servidores[local].get_canaistexto().begin()+i);
+				return "canal de texto removido";
+			}else return "voce nao é o dono do canal";
+		}
+	}return "canal nao encontrado";
+
+} else return "usuario nao logado";
+	return "erro em remove_channel";
 }
 
 string Sistema::enter_channel(int id, const string nome) {
 if (verificar_logado(id)){
-	
-
-	
-} else "usuario nao logado";
-	return "enter_channel NÃO IMPLEMENTADO";
+	int count_user=usuarios.size() , count_server=servidores.size();
+	int id_server;
+		for (int i = 0; i < count_user; i++){
+			if (id==usuarios[i].get_id()){
+				if (usuariosLogados[usuarios[i].get_id()].first==0){
+					return "entre primeiro em um server";
+				}else{
+				 	id_server=usuariosLogados[usuarios[i].get_id()].first;
+				 	break;
+				}
+			}
+		}
+	int count_canaistexto = servidores[id_server].get_canaistexto().size();
+		for (int i = 0; i < count_canaistexto; i++){
+			if (nome==servidores[id_server].get_canaistexto()[i].get_nome()){
+				usuariosLogados[id].second=servidores[id_server].get_canaistexto()[i].get_id();
+			}
+		}return "nenhum canal com esse nome";
+		
+} else return "usuario nao logado";
+	return "erro em enter_channel";
 }
 
 string Sistema::leave_channel(int id) {
 if (verificar_logado(id)){
-	
+	int count_user=usuarios.size();
 
-	
+	for (int i = 0; i < count_user; i++){
+		if (usuarios[i].get_id()==id){
+			usuariosLogados[id].second=0;
+			return "saiu do canal";
+		}
+	}
 } else "usuario nao logado";
-	return "leave_channel NÃO IMPLEMENTADO";
+	return "erro em leave_channel";
 }
 
 string Sistema::send_message(int id, const string mensagem) {
 if (verificar_logado(id)){
+
+	string corpo_mensagem;
+	Usuario* remetente;
+	int count_user, count_server, count_canal, count_mensagem;
+	int id_server, id_canal;
+	for (int i = 0; i < count_user; i++){
+		if (id==usuarios[i].get_id()){
+			remetente=&usuarios[i];
+		}	
+	}
+	id_canal=usuariosLogados[id].second;
+	string data_hora = set_data_hora();
+	Mensagem enviando(id_mensagem, data_hora, mensagem, remetente);
+	id_mensagem++;
+	for (int i = 0; i < count_server; i++){
+		count_canal=servidores[i].get_canaistexto().size();
+		for (int a = 0; a < count_canal; a++){
+			if (servidores[i].get_canaistexto()[a].get_id()==id_canal){
+				servidores[i].get_canaistexto()[a].get_mensagens().push_back(enviando);
+			}
+		}
+	}
 	
 
 	
 } else "usuario nao logado";
-	return "send_message NÃO IMPLEMENTADO";
+	return "erro em send_message";
 }
 
 string Sistema::list_messages(int id) {
 if (verificar_logado(id)){
-	
 
-	
+	Usuario* remetente;
+	int count_user, count_server=servidores.size(), count_canal, count_mensagem;
+	int id_server, id_canal;
+	for (int i = 0; i < count_user; i++){
+		if (id==usuarios[i].get_id()){
+			remetente=&usuarios[i];
+		}	
+	}
+
+	for (int i = 0; i < count_server; i++){
+		count_canal=servidores[i].get_canaistexto().size();
+		for (int a = 0; a < count_canal; a++){
+			count_mensagem=servidores[i].get_canaistexto()[a].get_mensagens().size();
+			if(count_mensagem!=0){
+				for (int b = 0; b < count_mensagem; b++)
+				{
+					cout<<servidores[i].get_canaistexto()[a].get_mensagens()[b].get_enviada_por()->get_nome();
+					cout<<servidores[i].get_canaistexto()[a].get_mensagens()[b].get_data_hora()<<": ";
+					cout<<servidores[i].get_canaistexto()[a].get_mensagens()[b].get_conteudo()<<endl;
+				}
+			}else return "Sem mensagens para exebir";
+		}
+	}
 } else "usuario nao logado";
 	return "list_messages NÃO IMPLEMENTADO";
 }

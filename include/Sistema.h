@@ -1,6 +1,5 @@
 #ifndef SISTEMA_H
 #define SISTEMA_H
-#include"usuario.hpp"
 #include"servidor.hpp"
 #include<vector>
 #include<string>
@@ -15,6 +14,8 @@ class Sistema {
 		vector<Usuario> usuarios;
 		map <int, pair<unsigned int, unsigned int> > usuariosLogados;
   	public:
+		string set_data_hora();
+
 		bool verificar_logado(int id);
 
 		vector<Usuario> get_usuarios();

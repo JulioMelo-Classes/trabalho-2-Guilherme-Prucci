@@ -3,6 +3,7 @@
 #include "usuario.hpp"
 #include <iostream>
 #include <string>
+#include <time.h>
 
 
 class Mensagem{
@@ -12,6 +13,10 @@ class Mensagem{
     Usuario* enviada_por;
 
     public:
-    void enviar_mensagem();
+    Mensagem(unsigned int id_mensagem, string data_hora, string conteudo, Usuario* enviada_por);
+    unsigned int get_id();
+    string get_data_hora();
+    string get_conteudo();
+    Usuario* get_enviada_por();
 };
 #endif
