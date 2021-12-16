@@ -9,6 +9,7 @@ Servidor::Servidor(unsigned int id_servidor, string nome, Usuario &dono){
     this->dono=&dono;
 }
 
+//esse método aqui viola a condição do trabalho em que vc não pode retornar vetores/containers ou fazer set deles!
 vector<Canaltexto> Servidor::get_canaistexto(){
     return this->canaistexto;
 }

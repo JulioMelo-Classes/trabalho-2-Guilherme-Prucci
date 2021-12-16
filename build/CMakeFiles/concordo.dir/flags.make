@@ -6,5 +6,5 @@ CXX_FLAGS =
 
 CXX_DEFINES = 
 
-CXX_INCLUDES = -I/home/prucci/concord_2.0/trabalho-2-Guilherme-Prucci/include 
+CXX_INCLUDES = -I/home/julio/lp1/2021.2/trabalho2/trabalho-2-Guilherme-Prucci/include 
 

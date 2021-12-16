@@ -43,10 +43,10 @@ RM = /usr/bin/cmake -E remove -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /home/prucci/concord_2.0/trabalho-2-Guilherme-Prucci
+CMAKE_SOURCE_DIR = /home/julio/lp1/2021.2/trabalho2/trabalho-2-Guilherme-Prucci
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /home/prucci/concord_2.0/trabalho-2-Guilherme-Prucci/build
+CMAKE_BINARY_DIR = /home/julio/lp1/2021.2/trabalho2/trabalho-2-Guilherme-Prucci/build
 
 # Include any dependencies generated for this target.
 include CMakeFiles/concordo.dir/depend.make
@@ -59,94 +59,94 @@ include CMakeFiles/concordo.dir/flags.make
 
 CMakeFiles/concordo.dir/src/Concordo.cpp.o: CMakeFiles/concordo.dir/flags.make
 CMakeFiles/concordo.dir/src/Concordo.cpp.o: ../src/Concordo.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/prucci/concord_2.0/trabalho-2-Guilherme-Prucci/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object CMakeFiles/concordo.dir/src/Concordo.cpp.o"
-	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/concordo.dir/src/Concordo.cpp.o -c /home/prucci/concord_2.0/trabalho-2-Guilherme-Prucci/src/Concordo.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/julio/lp1/2021.2/trabalho2/trabalho-2-Guilherme-Prucci/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object CMakeFiles/concordo.dir/src/Concordo.cpp.o"
+	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/concordo.dir/src/Concordo.cpp.o -c /home/julio/lp1/2021.2/trabalho2/trabalho-2-Guilherme-Prucci/src/Concordo.cpp
 
 CMakeFiles/concordo.dir/src/Concordo.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/concordo.dir/src/Concordo.cpp.i"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/prucci/concord_2.0/trabalho-2-Guilherme-Prucci/src/Concordo.cpp > CMakeFiles/concordo.dir/src/Concordo.cpp.i
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/julio/lp1/2021.2/trabalho2/trabalho-2-Guilherme-Prucci/src/Concordo.cpp > CMakeFiles/concordo.dir/src/Concordo.cpp.i
 
 CMakeFiles/concordo.dir/src/Concordo.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/concordo.dir/src/Concordo.cpp.s"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/prucci/concord_2.0/trabalho-2-Guilherme-Prucci/src/Concordo.cpp -o CMakeFiles/concordo.dir/src/Concordo.cpp.s
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/julio/lp1/2021.2/trabalho2/trabalho-2-Guilherme-Prucci/src/Concordo.cpp -o CMakeFiles/concordo.dir/src/Concordo.cpp.s
 
 CMakeFiles/concordo.dir/src/Sistema.cpp.o: CMakeFiles/concordo.dir/flags.make
 CMakeFiles/concordo.dir/src/Sistema.cpp.o: ../src/Sistema.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/prucci/concord_2.0/trabalho-2-Guilherme-Prucci/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Building CXX object CMakeFiles/concordo.dir/src/Sistema.cpp.o"
-	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/concordo.dir/src/Sistema.cpp.o -c /home/prucci/concord_2.0/trabalho-2-Guilherme-Prucci/src/Sistema.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/julio/lp1/2021.2/trabalho2/trabalho-2-Guilherme-Prucci/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Building CXX object CMakeFiles/concordo.dir/src/Sistema.cpp.o"
+	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/concordo.dir/src/Sistema.cpp.o -c /home/julio/lp1/2021.2/trabalho2/trabalho-2-Guilherme-Prucci/src/Sistema.cpp
 
 CMakeFiles/concordo.dir/src/Sistema.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/concordo.dir/src/Sistema.cpp.i"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/prucci/concord_2.0/trabalho-2-Guilherme-Prucci/src/Sistema.cpp > CMakeFiles/concordo.dir/src/Sistema.cpp.i
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/julio/lp1/2021.2/trabalho2/trabalho-2-Guilherme-Prucci/src/Sistema.cpp > CMakeFiles/concordo.dir/src/Sistema.cpp.i
 
 CMakeFiles/concordo.dir/src/Sistema.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/concordo.dir/src/Sistema.cpp.s"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/prucci/concord_2.0/trabalho-2-Guilherme-Prucci/src/Sistema.cpp -o CMakeFiles/concordo.dir/src/Sistema.cpp.s
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/julio/lp1/2021.2/trabalho2/trabalho-2-Guilherme-Prucci/src/Sistema.cpp -o CMakeFiles/concordo.dir/src/Sistema.cpp.s
 
 CMakeFiles/concordo.dir/src/Executor.cpp.o: CMakeFiles/concordo.dir/flags.make
 CMakeFiles/concordo.dir/src/Executor.cpp.o: ../src/Executor.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/prucci/concord_2.0/trabalho-2-Guilherme-Prucci/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Building CXX object CMakeFiles/concordo.dir/src/Executor.cpp.o"
-	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/concordo.dir/src/Executor.cpp.o -c /home/prucci/concord_2.0/trabalho-2-Guilherme-Prucci/src/Executor.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/julio/lp1/2021.2/trabalho2/trabalho-2-Guilherme-Prucci/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Building CXX object CMakeFiles/concordo.dir/src/Executor.cpp.o"
+	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/concordo.dir/src/Executor.cpp.o -c /home/julio/lp1/2021.2/trabalho2/trabalho-2-Guilherme-Prucci/src/Executor.cpp
 
 CMakeFiles/concordo.dir/src/Executor.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/concordo.dir/src/Executor.cpp.i"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/prucci/concord_2.0/trabalho-2-Guilherme-Prucci/src/Executor.cpp > CMakeFiles/concordo.dir/src/Executor.cpp.i
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/julio/lp1/2021.2/trabalho2/trabalho-2-Guilherme-Prucci/src/Executor.cpp > CMakeFiles/concordo.dir/src/Executor.cpp.i
 
 CMakeFiles/concordo.dir/src/Executor.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/concordo.dir/src/Executor.cpp.s"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/prucci/concord_2.0/trabalho-2-Guilherme-Prucci/src/Executor.cpp -o CMakeFiles/concordo.dir/src/Executor.cpp.s
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/julio/lp1/2021.2/trabalho2/trabalho-2-Guilherme-Prucci/src/Executor.cpp -o CMakeFiles/concordo.dir/src/Executor.cpp.s
 
 CMakeFiles/concordo.dir/src/Usuario.cpp.o: CMakeFiles/concordo.dir/flags.make
 CMakeFiles/concordo.dir/src/Usuario.cpp.o: ../src/Usuario.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/prucci/concord_2.0/trabalho-2-Guilherme-Prucci/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_4) "Building CXX object CMakeFiles/concordo.dir/src/Usuario.cpp.o"
-	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/concordo.dir/src/Usuario.cpp.o -c /home/prucci/concord_2.0/trabalho-2-Guilherme-Prucci/src/Usuario.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/julio/lp1/2021.2/trabalho2/trabalho-2-Guilherme-Prucci/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_4) "Building CXX object CMakeFiles/concordo.dir/src/Usuario.cpp.o"
+	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/concordo.dir/src/Usuario.cpp.o -c /home/julio/lp1/2021.2/trabalho2/trabalho-2-Guilherme-Prucci/src/Usuario.cpp
 
 CMakeFiles/concordo.dir/src/Usuario.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/concordo.dir/src/Usuario.cpp.i"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/prucci/concord_2.0/trabalho-2-Guilherme-Prucci/src/Usuario.cpp > CMakeFiles/concordo.dir/src/Usuario.cpp.i
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/julio/lp1/2021.2/trabalho2/trabalho-2-Guilherme-Prucci/src/Usuario.cpp > CMakeFiles/concordo.dir/src/Usuario.cpp.i
 
 CMakeFiles/concordo.dir/src/Usuario.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/concordo.dir/src/Usuario.cpp.s"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/prucci/concord_2.0/trabalho-2-Guilherme-Prucci/src/Usuario.cpp -o CMakeFiles/concordo.dir/src/Usuario.cpp.s
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/julio/lp1/2021.2/trabalho2/trabalho-2-Guilherme-Prucci/src/Usuario.cpp -o CMakeFiles/concordo.dir/src/Usuario.cpp.s
 
 CMakeFiles/concordo.dir/src/Servidor.cpp.o: CMakeFiles/concordo.dir/flags.make
 CMakeFiles/concordo.dir/src/Servidor.cpp.o: ../src/Servidor.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/prucci/concord_2.0/trabalho-2-Guilherme-Prucci/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_5) "Building CXX object CMakeFiles/concordo.dir/src/Servidor.cpp.o"
-	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/concordo.dir/src/Servidor.cpp.o -c /home/prucci/concord_2.0/trabalho-2-Guilherme-Prucci/src/Servidor.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/julio/lp1/2021.2/trabalho2/trabalho-2-Guilherme-Prucci/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_5) "Building CXX object CMakeFiles/concordo.dir/src/Servidor.cpp.o"
+	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/concordo.dir/src/Servidor.cpp.o -c /home/julio/lp1/2021.2/trabalho2/trabalho-2-Guilherme-Prucci/src/Servidor.cpp
 
 CMakeFiles/concordo.dir/src/Servidor.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/concordo.dir/src/Servidor.cpp.i"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/prucci/concord_2.0/trabalho-2-Guilherme-Prucci/src/Servidor.cpp > CMakeFiles/concordo.dir/src/Servidor.cpp.i
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/julio/lp1/2021.2/trabalho2/trabalho-2-Guilherme-Prucci/src/Servidor.cpp > CMakeFiles/concordo.dir/src/Servidor.cpp.i
 
 CMakeFiles/concordo.dir/src/Servidor.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/concordo.dir/src/Servidor.cpp.s"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/prucci/concord_2.0/trabalho-2-Guilherme-Prucci/src/Servidor.cpp -o CMakeFiles/concordo.dir/src/Servidor.cpp.s
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/julio/lp1/2021.2/trabalho2/trabalho-2-Guilherme-Prucci/src/Servidor.cpp -o CMakeFiles/concordo.dir/src/Servidor.cpp.s
 
 CMakeFiles/concordo.dir/src/Mensagem.cpp.o: CMakeFiles/concordo.dir/flags.make
 CMakeFiles/concordo.dir/src/Mensagem.cpp.o: ../src/Mensagem.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/prucci/concord_2.0/trabalho-2-Guilherme-Prucci/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_6) "Building CXX object CMakeFiles/concordo.dir/src/Mensagem.cpp.o"
-	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/concordo.dir/src/Mensagem.cpp.o -c /home/prucci/concord_2.0/trabalho-2-Guilherme-Prucci/src/Mensagem.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/julio/lp1/2021.2/trabalho2/trabalho-2-Guilherme-Prucci/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_6) "Building CXX object CMakeFiles/concordo.dir/src/Mensagem.cpp.o"
+	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/concordo.dir/src/Mensagem.cpp.o -c /home/julio/lp1/2021.2/trabalho2/trabalho-2-Guilherme-Prucci/src/Mensagem.cpp
 
 CMakeFiles/concordo.dir/src/Mensagem.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/concordo.dir/src/Mensagem.cpp.i"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/prucci/concord_2.0/trabalho-2-Guilherme-Prucci/src/Mensagem.cpp > CMakeFiles/concordo.dir/src/Mensagem.cpp.i
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/julio/lp1/2021.2/trabalho2/trabalho-2-Guilherme-Prucci/src/Mensagem.cpp > CMakeFiles/concordo.dir/src/Mensagem.cpp.i
 
 CMakeFiles/concordo.dir/src/Mensagem.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/concordo.dir/src/Mensagem.cpp.s"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/prucci/concord_2.0/trabalho-2-Guilherme-Prucci/src/Mensagem.cpp -o CMakeFiles/concordo.dir/src/Mensagem.cpp.s
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/julio/lp1/2021.2/trabalho2/trabalho-2-Guilherme-Prucci/src/Mensagem.cpp -o CMakeFiles/concordo.dir/src/Mensagem.cpp.s
 
 CMakeFiles/concordo.dir/src/Canaltexto.cpp.o: CMakeFiles/concordo.dir/flags.make
 CMakeFiles/concordo.dir/src/Canaltexto.cpp.o: ../src/Canaltexto.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/prucci/concord_2.0/trabalho-2-Guilherme-Prucci/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_7) "Building CXX object CMakeFiles/concordo.dir/src/Canaltexto.cpp.o"
-	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/concordo.dir/src/Canaltexto.cpp.o -c /home/prucci/concord_2.0/trabalho-2-Guilherme-Prucci/src/Canaltexto.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/julio/lp1/2021.2/trabalho2/trabalho-2-Guilherme-Prucci/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_7) "Building CXX object CMakeFiles/concordo.dir/src/Canaltexto.cpp.o"
+	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/concordo.dir/src/Canaltexto.cpp.o -c /home/julio/lp1/2021.2/trabalho2/trabalho-2-Guilherme-Prucci/src/Canaltexto.cpp
 
 CMakeFiles/concordo.dir/src/Canaltexto.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/concordo.dir/src/Canaltexto.cpp.i"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/prucci/concord_2.0/trabalho-2-Guilherme-Prucci/src/Canaltexto.cpp > CMakeFiles/concordo.dir/src/Canaltexto.cpp.i
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/julio/lp1/2021.2/trabalho2/trabalho-2-Guilherme-Prucci/src/Canaltexto.cpp > CMakeFiles/concordo.dir/src/Canaltexto.cpp.i
 
 CMakeFiles/concordo.dir/src/Canaltexto.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/concordo.dir/src/Canaltexto.cpp.s"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/prucci/concord_2.0/trabalho-2-Guilherme-Prucci/src/Canaltexto.cpp -o CMakeFiles/concordo.dir/src/Canaltexto.cpp.s
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/julio/lp1/2021.2/trabalho2/trabalho-2-Guilherme-Prucci/src/Canaltexto.cpp -o CMakeFiles/concordo.dir/src/Canaltexto.cpp.s
 
 # Object files for target concordo
 concordo_OBJECTS = \
@@ -170,7 +170,7 @@ concordo: CMakeFiles/concordo.dir/src/Mensagem.cpp.o
 concordo: CMakeFiles/concordo.dir/src/Canaltexto.cpp.o
 concordo: CMakeFiles/concordo.dir/build.make
 concordo: CMakeFiles/concordo.dir/link.txt
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/home/prucci/concord_2.0/trabalho-2-Guilherme-Prucci/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_8) "Linking CXX executable concordo"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/home/julio/lp1/2021.2/trabalho2/trabalho-2-Guilherme-Prucci/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_8) "Linking CXX executable concordo"
 	$(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/concordo.dir/link.txt --verbose=$(VERBOSE)
 
 # Rule to build all files generated by this target.
@@ -183,6 +183,6 @@ CMakeFiles/concordo.dir/clean:
 .PHONY : CMakeFiles/concordo.dir/clean
 
 CMakeFiles/concordo.dir/depend:
-	cd /home/prucci/concord_2.0/trabalho-2-Guilherme-Prucci/build && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/prucci/concord_2.0/trabalho-2-Guilherme-Prucci /home/prucci/concord_2.0/trabalho-2-Guilherme-Prucci /home/prucci/concord_2.0/trabalho-2-Guilherme-Prucci/build /home/prucci/concord_2.0/trabalho-2-Guilherme-Prucci/build /home/prucci/concord_2.0/trabalho-2-Guilherme-Prucci/build/CMakeFiles/concordo.dir/DependInfo.cmake --color=$(COLOR)
+	cd /home/julio/lp1/2021.2/trabalho2/trabalho-2-Guilherme-Prucci/build && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/julio/lp1/2021.2/trabalho2/trabalho-2-Guilherme-Prucci /home/julio/lp1/2021.2/trabalho2/trabalho-2-Guilherme-Prucci /home/julio/lp1/2021.2/trabalho2/trabalho-2-Guilherme-Prucci/build /home/julio/lp1/2021.2/trabalho2/trabalho-2-Guilherme-Prucci/build /home/julio/lp1/2021.2/trabalho2/trabalho-2-Guilherme-Prucci/build/CMakeFiles/concordo.dir/DependInfo.cmake --color=$(COLOR)
 .PHONY : CMakeFiles/concordo.dir/depend
 

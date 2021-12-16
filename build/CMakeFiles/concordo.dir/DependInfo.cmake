@@ -4,13 +4,13 @@ set(CMAKE_DEPENDS_LANGUAGES
   )
 # The set of files for implicit dependencies of each language:
 set(CMAKE_DEPENDS_CHECK_CXX
-  "/home/prucci/concord_2.0/trabalho-2-Guilherme-Prucci/src/Canaltexto.cpp" "/home/prucci/concord_2.0/trabalho-2-Guilherme-Prucci/build/CMakeFiles/concordo.dir/src/Canaltexto.cpp.o"
-  "/home/prucci/concord_2.0/trabalho-2-Guilherme-Prucci/src/Concordo.cpp" "/home/prucci/concord_2.0/trabalho-2-Guilherme-Prucci/build/CMakeFiles/concordo.dir/src/Concordo.cpp.o"
-  "/home/prucci/concord_2.0/trabalho-2-Guilherme-Prucci/src/Executor.cpp" "/home/prucci/concord_2.0/trabalho-2-Guilherme-Prucci/build/CMakeFiles/concordo.dir/src/Executor.cpp.o"
-  "/home/prucci/concord_2.0/trabalho-2-Guilherme-Prucci/src/Mensagem.cpp" "/home/prucci/concord_2.0/trabalho-2-Guilherme-Prucci/build/CMakeFiles/concordo.dir/src/Mensagem.cpp.o"
-  "/home/prucci/concord_2.0/trabalho-2-Guilherme-Prucci/src/Servidor.cpp" "/home/prucci/concord_2.0/trabalho-2-Guilherme-Prucci/build/CMakeFiles/concordo.dir/src/Servidor.cpp.o"
-  "/home/prucci/concord_2.0/trabalho-2-Guilherme-Prucci/src/Sistema.cpp" "/home/prucci/concord_2.0/trabalho-2-Guilherme-Prucci/build/CMakeFiles/concordo.dir/src/Sistema.cpp.o"
-  "/home/prucci/concord_2.0/trabalho-2-Guilherme-Prucci/src/Usuario.cpp" "/home/prucci/concord_2.0/trabalho-2-Guilherme-Prucci/build/CMakeFiles/concordo.dir/src/Usuario.cpp.o"
+  "/home/julio/lp1/2021.2/trabalho2/trabalho-2-Guilherme-Prucci/src/Canaltexto.cpp" "/home/julio/lp1/2021.2/trabalho2/trabalho-2-Guilherme-Prucci/build/CMakeFiles/concordo.dir/src/Canaltexto.cpp.o"
+  "/home/julio/lp1/2021.2/trabalho2/trabalho-2-Guilherme-Prucci/src/Concordo.cpp" "/home/julio/lp1/2021.2/trabalho2/trabalho-2-Guilherme-Prucci/build/CMakeFiles/concordo.dir/src/Concordo.cpp.o"
+  "/home/julio/lp1/2021.2/trabalho2/trabalho-2-Guilherme-Prucci/src/Executor.cpp" "/home/julio/lp1/2021.2/trabalho2/trabalho-2-Guilherme-Prucci/build/CMakeFiles/concordo.dir/src/Executor.cpp.o"
+  "/home/julio/lp1/2021.2/trabalho2/trabalho-2-Guilherme-Prucci/src/Mensagem.cpp" "/home/julio/lp1/2021.2/trabalho2/trabalho-2-Guilherme-Prucci/build/CMakeFiles/concordo.dir/src/Mensagem.cpp.o"
+  "/home/julio/lp1/2021.2/trabalho2/trabalho-2-Guilherme-Prucci/src/Servidor.cpp" "/home/julio/lp1/2021.2/trabalho2/trabalho-2-Guilherme-Prucci/build/CMakeFiles/concordo.dir/src/Servidor.cpp.o"
+  "/home/julio/lp1/2021.2/trabalho2/trabalho-2-Guilherme-Prucci/src/Sistema.cpp" "/home/julio/lp1/2021.2/trabalho2/trabalho-2-Guilherme-Prucci/build/CMakeFiles/concordo.dir/src/Sistema.cpp.o"
+  "/home/julio/lp1/2021.2/trabalho2/trabalho-2-Guilherme-Prucci/src/Usuario.cpp" "/home/julio/lp1/2021.2/trabalho2/trabalho-2-Guilherme-Prucci/build/CMakeFiles/concordo.dir/src/Usuario.cpp.o"
   )
 set(CMAKE_CXX_COMPILER_ID "GNU")
 

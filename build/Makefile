@@ -48,10 +48,10 @@ RM = /usr/bin/cmake -E remove -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /home/prucci/concord_2.0/trabalho-2-Guilherme-Prucci
+CMAKE_SOURCE_DIR = /home/julio/lp1/2021.2/trabalho2/trabalho-2-Guilherme-Prucci
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /home/prucci/concord_2.0/trabalho-2-Guilherme-Prucci/build
+CMAKE_BINARY_DIR = /home/julio/lp1/2021.2/trabalho2/trabalho-2-Guilherme-Prucci/build
 
 #=============================================================================
 # Targets provided globally by CMake.
@@ -80,9 +80,9 @@ edit_cache/fast: edit_cache
 
 # The main all target
 all: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/prucci/concord_2.0/trabalho-2-Guilherme-Prucci/build/CMakeFiles /home/prucci/concord_2.0/trabalho-2-Guilherme-Prucci/build/CMakeFiles/progress.marks
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/julio/lp1/2021.2/trabalho2/trabalho-2-Guilherme-Prucci/build/CMakeFiles /home/julio/lp1/2021.2/trabalho2/trabalho-2-Guilherme-Prucci/build/CMakeFiles/progress.marks
 	$(MAKE) -f CMakeFiles/Makefile2 all
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/prucci/concord_2.0/trabalho-2-Guilherme-Prucci/build/CMakeFiles 0
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/julio/lp1/2021.2/trabalho2/trabalho-2-Guilherme-Prucci/build/CMakeFiles 0
 .PHONY : all
 
 # The main clean target

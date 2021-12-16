@@ -1,4 +1,4 @@
-# Install script for directory: /home/prucci/concord_2.0/trabalho-2-Guilherme-Prucci
+# Install script for directory: /home/julio/lp1/2021.2/trabalho2/trabalho-2-Guilherme-Prucci
 
 # Set the install prefix
 if(NOT DEFINED CMAKE_INSTALL_PREFIX)
@@ -45,5 +45,5 @@ endif()
 
 string(REPLACE ";" "\n" CMAKE_INSTALL_MANIFEST_CONTENT
        "${CMAKE_INSTALL_MANIFEST_FILES}")
-file(WRITE "/home/prucci/concord_2.0/trabalho-2-Guilherme-Prucci/build/${CMAKE_INSTALL_MANIFEST}"
+file(WRITE "/home/julio/lp1/2021.2/trabalho2/trabalho-2-Guilherme-Prucci/build/${CMAKE_INSTALL_MANIFEST}"
      "${CMAKE_INSTALL_MANIFEST_CONTENT}")

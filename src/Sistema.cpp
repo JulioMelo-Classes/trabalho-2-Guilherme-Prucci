@@ -353,7 +353,11 @@ if (verificar_logado(id)){
 	return "erro em remove_channel";
 }
 
+//checkin 4.1 e 4.2 70% vou tirar pontos pela indentação
+//a indentação aqui estava errada eu corrigi pra ficar correta, verifique isso nos outros métodos
 string Sistema::enter_channel(int id, const string nome) {
+//antes
+/*
 if (verificar_logado(id)){
 	int count_user=usuarios.size() , count_server=servidores.size();
 	int id_server;
@@ -376,6 +380,35 @@ if (verificar_logado(id)){
 		
 } else return "usuario nao logado";
 	return "erro em enter_channel";
+*/
+	if (verificar_logado(id)){
+		int count_user=usuarios.size() , count_server=servidores.size();
+		int id_server;
+		for (int i = 0; i < count_user; i++){
+			if (id==usuarios[i].get_id()){
+				if (usuariosLogados[usuarios[i].get_id()].first==0){
+					return "entre primeiro em um server";
+				}else{
+					id_server=usuariosLogados[usuarios[i].get_id()].first;
+					break;
+				}
+			}
+		}
+		int count_canaistexto = servidores[id_server].get_canaistexto().size();
+		for (int i = 0; i < count_canaistexto; i++){
+			if (nome==servidores[id_server].get_canaistexto()[i].get_nome()){
+				//nesse caso aqui, se vc não pode retornar o vetor como vc vai fazer?
+				//uma forma é criar um método em servidor que retorna o id de um canal mediante um parâmetro!
+				//lembre que os objetos não são apenas structs eles tem métodos dentro!
+				//tente terceirizar o trabalho o máximo que puder!
+				usuariosLogados[id].second=servidores[id_server].get_canaistexto()[i].get_id();
+			}
+		}
+		return "nenhum canal com esse nome";
+	}
+	else //coloquei esse enter aqui para enfatizar que tem dois returns
+		return "usuario nao logado";
+	return "erro em enter_channel";
 }
 
 string Sistema::leave_channel(int id) {
@@ -391,7 +424,7 @@ if (verificar_logado(id)){
 } else "usuario nao logado";
 	return "erro em leave_channel";
 }
-
+//checkin 4.3 e 4.4 70%
 string Sistema::send_message(int id, const string mensagem) {
 if (verificar_logado(id)){
 
@@ -401,7 +434,7 @@ if (verificar_logado(id)){
 	int id_server, id_canal;
 	for (int i = 0; i < count_user; i++){
 		if (id==usuarios[i].get_id()){
-			remetente=&usuarios[i];
+			remetente=&usuarios[i]; //aqui vc não precisa desse operador de endereço, os elementos do vetor já são ponteiros!
 		}	
 	}
 	id_canal=usuariosLogados[id].second;
@@ -411,6 +444,8 @@ if (verificar_logado(id)){
 	for (int i = 0; i < count_server; i++){
 		count_canal=servidores[i].get_canaistexto().size();
 		for (int a = 0; a < count_canal; a++){
+			//de forma similar ao 4.1 e 4.2 vc deve terceirizar a manipulação desse vetor "mensagens" quem deve fazer esse trabalho
+			//é a própria classe canal!
 			if (servidores[i].get_canaistexto()[a].get_id()==id_canal){
 				servidores[i].get_canaistexto()[a].get_mensagens().push_back(enviando);
 			}

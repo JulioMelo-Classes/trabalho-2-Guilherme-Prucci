@@ -62,11 +62,11 @@ string
 vector
 -
 
-/home/prucci/concord_2.0/trabalho-2-Guilherme-Prucci/src/Canaltexto.cpp
+/home/julio/lp1/2021.2/trabalho2/trabalho-2-Guilherme-Prucci/src/Canaltexto.cpp
 canaltexto.hpp
-/home/prucci/concord_2.0/trabalho-2-Guilherme-Prucci/src/canaltexto.hpp
+/home/julio/lp1/2021.2/trabalho2/trabalho-2-Guilherme-Prucci/src/canaltexto.hpp
 
-/home/prucci/concord_2.0/trabalho-2-Guilherme-Prucci/src/Concordo.cpp
+/home/julio/lp1/2021.2/trabalho2/trabalho-2-Guilherme-Prucci/src/Concordo.cpp
 iostream
 -
 list
@@ -76,13 +76,13 @@ vector
 string
 -
 Sistema.h
-/home/prucci/concord_2.0/trabalho-2-Guilherme-Prucci/src/Sistema.h
+/home/julio/lp1/2021.2/trabalho2/trabalho-2-Guilherme-Prucci/src/Sistema.h
 Executor.h
-/home/prucci/concord_2.0/trabalho-2-Guilherme-Prucci/src/Executor.h
+/home/julio/lp1/2021.2/trabalho2/trabalho-2-Guilherme-Prucci/src/Executor.h
 
-/home/prucci/concord_2.0/trabalho-2-Guilherme-Prucci/src/Executor.cpp
+/home/julio/lp1/2021.2/trabalho2/trabalho-2-Guilherme-Prucci/src/Executor.cpp
 Executor.h
-/home/prucci/concord_2.0/trabalho-2-Guilherme-Prucci/src/Executor.h
+/home/julio/lp1/2021.2/trabalho2/trabalho-2-Guilherme-Prucci/src/Executor.h
 istream
 -
 ostream
@@ -94,19 +94,19 @@ sstream
 queue
 -
 
-/home/prucci/concord_2.0/trabalho-2-Guilherme-Prucci/src/Mensagem.cpp
+/home/julio/lp1/2021.2/trabalho2/trabalho-2-Guilherme-Prucci/src/Mensagem.cpp
 mensagem.hpp
-/home/prucci/concord_2.0/trabalho-2-Guilherme-Prucci/src/mensagem.hpp
+/home/julio/lp1/2021.2/trabalho2/trabalho-2-Guilherme-Prucci/src/mensagem.hpp
 
-/home/prucci/concord_2.0/trabalho-2-Guilherme-Prucci/src/Servidor.cpp
+/home/julio/lp1/2021.2/trabalho2/trabalho-2-Guilherme-Prucci/src/Servidor.cpp
 servidor.hpp
-/home/prucci/concord_2.0/trabalho-2-Guilherme-Prucci/src/servidor.hpp
+/home/julio/lp1/2021.2/trabalho2/trabalho-2-Guilherme-Prucci/src/servidor.hpp
 vector
 -
 
-/home/prucci/concord_2.0/trabalho-2-Guilherme-Prucci/src/Sistema.cpp
+/home/julio/lp1/2021.2/trabalho2/trabalho-2-Guilherme-Prucci/src/Sistema.cpp
 Sistema.h
-/home/prucci/concord_2.0/trabalho-2-Guilherme-Prucci/src/Sistema.h
+/home/julio/lp1/2021.2/trabalho2/trabalho-2-Guilherme-Prucci/src/Sistema.h
 iostream
 -
 sstream
@@ -118,9 +118,9 @@ vector
 utility
 -
 
-/home/prucci/concord_2.0/trabalho-2-Guilherme-Prucci/src/Usuario.cpp
+/home/julio/lp1/2021.2/trabalho2/trabalho-2-Guilherme-Prucci/src/Usuario.cpp
 usuario.hpp
-/home/prucci/concord_2.0/trabalho-2-Guilherme-Prucci/src/usuario.hpp
+/home/julio/lp1/2021.2/trabalho2/trabalho-2-Guilherme-Prucci/src/usuario.hpp
 vector
 -
 
